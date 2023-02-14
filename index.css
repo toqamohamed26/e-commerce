@@ -1,0 +1,150 @@
+
+.my-nav{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+ 
+    .carousel-item {
+      height: 100vh;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    
+
+    .nav-item{
+        padding-right: 10%;
+    }
+
+    .nav-link{
+        color: #DFF6FF;
+        font-size: larger;
+    }
+    .nav-link:hover{
+        color: #06283D;
+        border-bottom: solid 2px #06283D ;
+    }
+    .navbar-toggler{
+        color: rgb(244, 244, 246);
+    }
+
+    .navbar-brand{
+        color: #DFF6FF;
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        font-size: larger;
+        font-family: "Sofia", sans-serif;
+        
+    }
+    .part {
+        margin-top: 5%;
+      }
+   
+    
+      .heading2 {
+        display: flex;
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: 10%;
+        color:#06283D;
+        margin-top: 5%;
+
+      }
+      hr{
+        width: 80%;
+      }
+      
+      .bestProducts {
+        display: inline-block;
+        margin-left: 10%;
+        margin-top: 2%;
+      
+      }
+      
+      .product {
+        display: table-cell;
+        margin: 5px;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+      }
+      
+      
+      .proName {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+        color: #2e3a4f;
+      }
+      
+      .section {
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+        text-transform: uppercase;
+        color: #2e3a4f;
+        font-size: 13px;
+      }
+      
+      .price {
+        display: flex;
+        justify-content: center;
+        color: #256D85;
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+
+      }
+      del{
+        margin-left: 4%;
+        color: #48b5ff;
+
+      }
+    
+      
+      .productPic {
+        transition: transform .7s;
+        /* Animation */
+      
+      }
+      
+      .productPic:hover {
+        transform: scale(1.1);
+      }
+    
+      .heading3{
+        display: flex;
+        font-family: 'Courier New', Courier, monospace;
+        color:#06283D;
+        justify-content: center;
+      }
+
+      .forthpart{
+        background-color: #06283D;
+        width: 100%;
+        font-family: 'Courier New', Courier, monospace;
+        color: #DFF6FF;
+        display: flex;
+        justify-content: center;
+      }
+      .mayLike{
+        display: inline-block;
+        margin-left: 8%;
+        margin-top: 2%;
+      }
+      .likePro {
+        transition: transform .7s;
+        /* Animation */
+      
+      }
+      
+      .likePro:hover {
+        transform: scale(.9);
+        border-radius: 50%;
+      }
